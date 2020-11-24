@@ -13,6 +13,8 @@ df.index = pd.to_datetime(df['Date'])
 # Initialise the app
 app = dash.Dash(__name__)
 
+server = app.server
+
 # Creates a list of dictionaries, which have the keys 'label' and 'value'.
 def get_options(list_stocks):
     dict_list = []
