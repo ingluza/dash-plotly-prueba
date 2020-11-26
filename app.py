@@ -29,7 +29,7 @@ app.layout = html.Div(children=[
                                children=[
                                   html.Div(className='four columns div-user-controls',  # Define the left element
                                   children = [
-                                    html.H2('Dash - STOCK PRICES'),
+                                    html.H2('Dash - STOCK PRICES...'),
                                     html.P('''Visualising time series with Plotly - Dash'''),
                                     html.P('''Pick one or more stocks from the dropdown below.'''),
                                     html.Div(className='div-for-dropdown',
